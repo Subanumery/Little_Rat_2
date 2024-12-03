@@ -73,6 +73,12 @@ footer .button:active {
 .content h1 {
   font-size: 1.4rem;
   margin: 0 0 1.2rem 0;
+  text-shadow: none;
+  transition: all 200ms;
+}
+
+.content h1:hover {
+  font-size: 1.8rem;
 }
 
 .content .social_container {
@@ -119,14 +125,28 @@ footer .button:active {
 
 @media only screen and (max-width: 550px) {
 
+  .content {
+    height: 100%;
+    font-size: 1.2rem;
+  }
+
   .content h1 {
-    margin: 0 0 0 0;
+    font-size: 1rem;
+    position: relative;
+    top: 33%;
+  }
+
+  .content h1:hover,
+  .content h1:active {
+    font-size: 1.2rem;
+    text-shadow: 3px 3px #ffbe0ccc;
   }
 
   .content .social_container {
     flex-direction: column;
     justify-content: space-between;
-    height: 6rem;
+    margin-bottom: 50%;
+    height: 8rem;
   }
 
 }
