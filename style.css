@@ -133,7 +133,7 @@ footer .button:active {
   .content h1 {
     font-size: 1rem;
     position: relative;
-    top: 33%;
+    top: 10px;
   }
 
   .content h1:hover,
