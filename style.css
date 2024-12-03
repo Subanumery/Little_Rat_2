@@ -123,7 +123,6 @@ footer .button:active {
   }
 
   .content .social_container {
-    border: 1px solid red;
     flex-direction: column;
     justify-content: space-between;
     height: 6rem;
