@@ -39,8 +39,9 @@ footer {
 }
 
 footer .button {
-  height: 1.8rem;
-  width: 1.8rem;
+  font-size: 0.6rem;
+  height: 1.4rem;
+  width: 1.4rem;
   margin: 0.2rem;
   border-radius: 100%;
   display: flex;
@@ -52,7 +53,7 @@ footer .button {
 }
 
 footer .button:hover {
-  font-size: 1.1rem; 
+  font-size: 0.8rem; 
   background-color: rgba(0, 0, 0, 0.8);
 }
 
