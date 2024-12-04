@@ -29,6 +29,23 @@ body .background_video {
   object-position: center;
 }
 
+header {
+  text-align: center;
+  align-self: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  text-shadow: none;
+  transition: all 200ms;
+}
+
+header h1:hover {
+  font-size: 1.8rem;
+  text-shadow: 0.1rem 0.1rem #ffbe0ccc;  
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -68,17 +85,6 @@ footer .button:active {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-}
-
-.content h1 {
-  font-size: 1.4rem;
-  margin: 0 0 1.2rem 0;
-  text-shadow: none;
-  transition: all 200ms;
-}
-
-.content h1:hover {
-  font-size: 1.8rem;
 }
 
 .content .social_container {
@@ -128,24 +134,69 @@ footer .button:active {
   .content {
     height: 100%;
     font-size: 1.2rem;
+    justify-content: center;
   }
 
-  .content h1 {
-    font-size: 1rem;
-    margin: 10px;
+  header {
+    margin: 10% 0 0 0;
   }
 
-  .content h1:hover,
-  .content h1:active {
+  header h1 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+
+  header h1:hover {
     font-size: 1.2rem;
-    text-shadow: 3px 3px #ffbe0ccc;
+    text-shadow: 0.08rem 0.08rem #ffbe0ccc;
   }
 
   .content .social_container {
+    font-size: 1.8rem;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 50%;
     height: 8rem;
+  }
+
+  .content .social_container .steam:hover a i,
+  .content .social_container .steam:active a i {
+    font-size: 2.5rem;
+    color: #0071eb;
+    bottom: 0.3rem;
+  }
+
+  .content .social_container .discord:hover a i,
+  .content .social_container .discord:active a i {
+    font-size: 2.5rem;
+    color: #0a3beb;
+    bottom: 0.3rem;
+
+  }
+
+  .content .social_container .youtube:hover a i,
+  .content .social_container .youtube:active a i{
+    font-size: 2.5rem;
+    color: #ff0022;
+    bottom: 0.3rem;
+  }
+
+}
+
+@media only screen and (max-height: 550px) and (orientation: landscape) {
+
+  footer .button {
+    font-size: 0.3rem;
+    height: 0.7rem;
+    width: 0.7rem;
+    margin: 0.05rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0.05rem solid rgba(255, 255, 255, 1);
+    transition: all 75ms;
   }
 
 }
