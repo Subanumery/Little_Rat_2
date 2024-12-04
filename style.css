@@ -139,6 +139,7 @@ footer .button:active {
 
   header h1 {
     font-size: 1.2rem;
+    margin: 0;
   }
 
   header h1:hover {
@@ -148,10 +149,8 @@ footer .button:active {
 
   .content .social_container {
     font-size: 1.6rem;
-    margin-top: auto;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 1.4rem;
     height: 8rem;
   }
 
