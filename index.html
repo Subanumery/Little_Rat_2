@@ -70,27 +70,23 @@
 
 <script>
 
-  const video = document.getElementById('background_video');
-  const mute_button = document.getElementById('mute_button');
+  const video = document.getElementById("background_video");
+  const muteButton = document.getElementById("mute_button");
 
   video.muted = true;
 
-  mute_button.addEventListener('click', () => {
+  muteButton.addEventListener("click", () => {
 
-    if (video.muted) {
+    video.muted = !video.muted;
 
-      video.muted = false;
-
-      video.play()
-        
-    } else {
-
-      video.muted = true;
+    if (!video.muted) {
+      video.play();
     }
 
-    mute_button.innerHTML = video.muted
+    muteButton.innerHTML = video.muted
       ? '<i class="fas fa-volume-mute"></i>'
       : '<i class="fas fa-volume-up"></i>';
+      
   });
 
 </script>
