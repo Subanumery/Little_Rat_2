@@ -142,17 +142,18 @@ footer .button:active {
   }
 
   header h1 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 10px 0;
   }
 
   header h1:hover {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-shadow: 0.08rem 0.08rem #ffbe0ccc;
   }
 
   .content .social_container {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    margin-top: auto;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 50%;
@@ -161,14 +162,14 @@ footer .button:active {
 
   .content .social_container .steam:hover a i,
   .content .social_container .steam:active a i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #0071eb;
     bottom: 0.3rem;
   }
 
   .content .social_container .discord:hover a i,
   .content .social_container .discord:active a i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #0a3beb;
     bottom: 0.3rem;
 
@@ -176,7 +177,7 @@ footer .button:active {
 
   .content .social_container .youtube:hover a i,
   .content .social_container .youtube:active a i{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #ff0022;
     bottom: 0.3rem;
   }
